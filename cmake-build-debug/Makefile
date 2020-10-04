@@ -143,32 +143,32 @@ dasarpemrogramancpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dasarpemrogramancpp.dir/build.make CMakeFiles/dasarpemrogramancpp.dir/build
 .PHONY : dasarpemrogramancpp/fast
 
-main.o: main.cpp.o
+program-pertama.o: program-pertama.cpp.o
 
-.PHONY : main.o
+.PHONY : program-pertama.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dasarpemrogramancpp.dir/build.make CMakeFiles/dasarpemrogramancpp.dir/main.cpp.o
-.PHONY : main.cpp.o
+program-pertama.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dasarpemrogramancpp.dir/build.make CMakeFiles/dasarpemrogramancpp.dir/program-pertama.cpp.o
+.PHONY : program-pertama.cpp.o
 
-main.i: main.cpp.i
+program-pertama.i: program-pertama.cpp.i
 
-.PHONY : main.i
+.PHONY : program-pertama.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dasarpemrogramancpp.dir/build.make CMakeFiles/dasarpemrogramancpp.dir/main.cpp.i
-.PHONY : main.cpp.i
+program-pertama.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dasarpemrogramancpp.dir/build.make CMakeFiles/dasarpemrogramancpp.dir/program-pertama.cpp.i
+.PHONY : program-pertama.cpp.i
 
-main.s: main.cpp.s
+program-pertama.s: program-pertama.cpp.s
 
-.PHONY : main.s
+.PHONY : program-pertama.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dasarpemrogramancpp.dir/build.make CMakeFiles/dasarpemrogramancpp.dir/main.cpp.s
-.PHONY : main.cpp.s
+program-pertama.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dasarpemrogramancpp.dir/build.make CMakeFiles/dasarpemrogramancpp.dir/program-pertama.cpp.s
+.PHONY : program-pertama.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... dasarpemrogramancpp"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... program-pertama.o"
+	@echo "... program-pertama.i"
+	@echo "... program-pertama.s"
 .PHONY : help
 
 

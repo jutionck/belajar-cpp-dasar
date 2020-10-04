@@ -77,27 +77,27 @@ include CMakeFiles/dasarpemrogramancpp.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/dasarpemrogramancpp.dir/flags.make
 
-CMakeFiles/dasarpemrogramancpp.dir/main.cpp.o: CMakeFiles/dasarpemrogramancpp.dir/flags.make
-CMakeFiles/dasarpemrogramancpp.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jutioncandrakirana/Documents/GitHub/dasarpemrogramancpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/dasarpemrogramancpp.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dasarpemrogramancpp.dir/main.cpp.o -c /Users/jutioncandrakirana/Documents/GitHub/dasarpemrogramancpp/main.cpp
+CMakeFiles/dasarpemrogramancpp.dir/program-pertama.cpp.o: CMakeFiles/dasarpemrogramancpp.dir/flags.make
+CMakeFiles/dasarpemrogramancpp.dir/program-pertama.cpp.o: ../program-pertama.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jutioncandrakirana/Documents/GitHub/dasarpemrogramancpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/dasarpemrogramancpp.dir/program-pertama.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dasarpemrogramancpp.dir/program-pertama.cpp.o -c /Users/jutioncandrakirana/Documents/GitHub/dasarpemrogramancpp/program-pertama.cpp
 
-CMakeFiles/dasarpemrogramancpp.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dasarpemrogramancpp.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jutioncandrakirana/Documents/GitHub/dasarpemrogramancpp/main.cpp > CMakeFiles/dasarpemrogramancpp.dir/main.cpp.i
+CMakeFiles/dasarpemrogramancpp.dir/program-pertama.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dasarpemrogramancpp.dir/program-pertama.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jutioncandrakirana/Documents/GitHub/dasarpemrogramancpp/program-pertama.cpp > CMakeFiles/dasarpemrogramancpp.dir/program-pertama.cpp.i
 
-CMakeFiles/dasarpemrogramancpp.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dasarpemrogramancpp.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jutioncandrakirana/Documents/GitHub/dasarpemrogramancpp/main.cpp -o CMakeFiles/dasarpemrogramancpp.dir/main.cpp.s
+CMakeFiles/dasarpemrogramancpp.dir/program-pertama.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dasarpemrogramancpp.dir/program-pertama.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jutioncandrakirana/Documents/GitHub/dasarpemrogramancpp/program-pertama.cpp -o CMakeFiles/dasarpemrogramancpp.dir/program-pertama.cpp.s
 
 # Object files for target dasarpemrogramancpp
 dasarpemrogramancpp_OBJECTS = \
-"CMakeFiles/dasarpemrogramancpp.dir/main.cpp.o"
+"CMakeFiles/dasarpemrogramancpp.dir/program-pertama.cpp.o"
 
 # External object files for target dasarpemrogramancpp
 dasarpemrogramancpp_EXTERNAL_OBJECTS =
 
-dasarpemrogramancpp: CMakeFiles/dasarpemrogramancpp.dir/main.cpp.o
+dasarpemrogramancpp: CMakeFiles/dasarpemrogramancpp.dir/program-pertama.cpp.o
 dasarpemrogramancpp: CMakeFiles/dasarpemrogramancpp.dir/build.make
 dasarpemrogramancpp: CMakeFiles/dasarpemrogramancpp.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jutioncandrakirana/Documents/GitHub/dasarpemrogramancpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable dasarpemrogramancpp"

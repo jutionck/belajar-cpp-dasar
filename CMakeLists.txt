@@ -3,4 +3,4 @@ project(dasarpemrogramancpp)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(dasarpemrogramancpp program-pertama/main.cpp)
+add_executable(dasarpemrogramancpp program-pertama.cpp)

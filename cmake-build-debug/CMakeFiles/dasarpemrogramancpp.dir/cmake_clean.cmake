@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/dasarpemrogramancpp.dir/main.cpp.o"
+  "CMakeFiles/dasarpemrogramancpp.dir/program-pertama.cpp.o"
   "dasarpemrogramancpp"
   "dasarpemrogramancpp.pdb"
 )

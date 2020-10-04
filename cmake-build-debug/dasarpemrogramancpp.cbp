@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/jutioncandrakirana/Documents/GitHub/dasarpemrogramancpp/main.cpp">
+		<Unit filename="/Users/jutioncandrakirana/Documents/GitHub/dasarpemrogramancpp/program-pertama.cpp">
 			<Option target="dasarpemrogramancpp"/>
 		</Unit>
 		<Unit filename="/Users/jutioncandrakirana/Documents/GitHub/dasarpemrogramancpp/CMakeLists.txt">
